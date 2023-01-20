@@ -66,7 +66,6 @@ class Saxon(soldier):
 
 
 
-# War
 
 
 class War:
