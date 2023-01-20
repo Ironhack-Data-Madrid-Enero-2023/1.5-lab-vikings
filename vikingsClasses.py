@@ -66,9 +66,9 @@ class Saxon(Soldier):
 
 
 class War:
-    def __init__(self, vikingArmy, saxonArmy):
-        self.vikingArmy=vikingArmy
-        self.saxonArmy=saxonArmy
+    def __init__(self):
+        self.vikingArmy=[]
+        self.saxonArmy=[]
 
 
     def addViking(Viking):
@@ -94,7 +94,7 @@ class War:
     def showStatus(self):
         if vikingArmy > saxonArmy:
             print( "Vikings have won the war of the century!")
-            
+
         elif saxonArmy > vikingArmy:
             print("Saxons have fought for their lives and survive another day...")
 
